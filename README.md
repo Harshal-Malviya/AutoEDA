@@ -64,7 +64,7 @@ The generated report includes:
 
 ## Export Report
 
-You can also export the report as an HTML file:
+You can export the report as a PDF by clicking on the "Download PDF" at the right corner of the report or you can also export the report as an HTML file: 
 
 ```python
 a.save_html("report.html")
