@@ -89,7 +89,7 @@ autoeda_report.html
 ---
 
 ## Example Dataset
-
+(included in the folder "examples")
 ```python
 import pandas as pd
 from autoeda import autoeda
