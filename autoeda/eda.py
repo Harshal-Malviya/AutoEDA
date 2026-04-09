@@ -2,7 +2,6 @@ import os
 import io
 import base64
 import pandas as pd
-from streamlit import html, title
 from tqdm import tqdm
 from .visualizations import (
     plot_distribution_base64,
