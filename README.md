@@ -18,6 +18,7 @@ It is designed to help data scientists quickly understand a dataset without writ
 * Automated insights
 * Interactive HTML dashboard
 * Works in **Jupyter, Google Colab, Kaggle, and Python scripts**
+* CLI support
 
 ---
 
@@ -63,7 +64,7 @@ The generated report includes:
 
 ## Export Report
 
-You can export the report as a PDF by clicking on the `Download PDF` at the right corner of the report or you can also export the report as an HTML file: 
+You can also export the report as an HTML file:
 
 ```python
 a.save_html("report.html")
@@ -88,12 +89,12 @@ autoeda_report.html
 ---
 
 ## Example Dataset
-The dataset `emissions_reduction_data.csv` is included in the `examples` folder.
+
 ```python
 import pandas as pd
 from autoeda import autoeda
 
-df = pd.read_csv("emissions_reduction_data.csv")
+df = pd.read_csv("dataset_name.csv")
 
 autoeda(df).analyze().show()
 ```
@@ -119,18 +120,15 @@ Install the latest version:
 pip install autoeda-pro
 ```
 
-PyPI page:
+GitHub Repository:
 
-https://pypi.org/project/autoeda-pro/
+https://github.com/Harshal-Malviya/AutoEDA
 
 ---
 
 ## Author
 
-Harshal
+Harshal Malviya
 
 ---
 
-## License
-
-MIT License

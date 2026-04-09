@@ -283,10 +283,6 @@ html_template = """
     <nav class="navbar">
         <h1>{{ title }}</h1>
         <div class="nav-links">
-            <a href="#overview">Overview</a>
-            <a href="#missing">Missing Data</a>
-            <a href="#correlations">Correlations</a>
-            <a href="#distributions">Distributions</a>
             <button class="btn-action btn-toggle" onclick="toggleTheme()">🌓 Theme</button>
             <button class="btn-action btn-download" onclick="downloadPDF()">Download PDF</button>
         </div>
